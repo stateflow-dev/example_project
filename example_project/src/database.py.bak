@@ -1,4 +1,0 @@
-﻿# Database connection
-host = "localhost"
-port = 5432
-dbname = "mydb"

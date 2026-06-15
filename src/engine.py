@@ -15,12 +15,12 @@ class Engine:
         etype = event.get("type", "unknown")
 
         # Separator dengan mojibake -- sama seperti runtime_manager.py
-        logger.info("â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬â•¬")
+        logger.info("═══════════════")
 
         self.count += 1
         logger.info("Processing: %s", etype)
 
         # Arrow corrupt
-        # Flow: input â†’ process â†’ output
+        # Flow: input → process → output
 
         return {"status": "ok", "count": self.count}
